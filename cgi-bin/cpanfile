@@ -1,0 +1,2 @@
+requires 'Perl::Lint';
+requires 'Imager';

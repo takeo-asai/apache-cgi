@@ -1,0 +1,10 @@
+version: '2'
+services:
+    apache:
+        build: ./conf
+        volumes:
+            - ./log:/var/log/apache2
+            - ./htdocs:/usr/local/apache2/htdocs
+            - ./cgi-bin:/usr/local/apache2/cgi-bin
+        ports:
+            - 80:80

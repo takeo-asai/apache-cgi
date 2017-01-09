@@ -1,0 +1,542 @@
+# carton snapshot format: version 1.0
+DISTRIBUTIONS
+  B-Keywords-1.15
+    pathname: R/RU/RURBAN/B-Keywords-1.15.tar.gz
+    provides:
+      B::Keywords 1.15
+    requirements:
+      B 0
+      ExtUtils::MakeMaker 0
+  Compiler-Lexer-0.22
+    pathname: G/GO/GOCCY/Compiler-Lexer-0.22.tar.gz
+    provides:
+      Compiler::Lexer 0.22
+      Compiler::Lexer::Kind undef
+      Compiler::Lexer::SyntaxType undef
+      Compiler::Lexer::Token undef
+      Compiler::Lexer::TokenType undef
+    requirements:
+      Devel::PPPort 3.19
+      ExtUtils::MakeMaker 6.59
+      ExtUtils::ParseXS 2.21
+      Module::Build 0.38
+      Module::Build::XSUtil 0.02
+      Test::More 0
+      XSLoader 0.02
+      perl 5.008001
+  Devel-CheckCompiler-0.07
+    pathname: S/SY/SYOHEX/Devel-CheckCompiler-0.07.tar.gz
+    provides:
+      Devel::AssertC99 undef
+      Devel::CheckCompiler 0.07
+    requirements:
+      Exporter 0
+      ExtUtils::CBuilder 0
+      File::Temp 0
+      Module::Build::Tiny 0.035
+      Test::More 0.98
+      parent 0
+      perl 5.008001
+  Email-Address-1.908
+    pathname: R/RJ/RJBS/Email-Address-1.908.tar.gz
+    provides:
+      Email::Address 1.908
+    requirements:
+      ExtUtils::MakeMaker 0
+      overload 0
+      strict 0
+      warnings 0
+  Exporter-Tiny-0.042
+    pathname: T/TO/TOBYINK/Exporter-Tiny-0.042.tar.gz
+    provides:
+      Exporter::Shiny 0.042
+      Exporter::Tiny 0.042
+    requirements:
+      ExtUtils::MakeMaker 6.17
+      perl 5.006001
+  ExtUtils-Config-0.008
+    pathname: L/LE/LEONT/ExtUtils-Config-0.008.tar.gz
+    provides:
+      ExtUtils::Config 0.008
+    requirements:
+      Data::Dumper 0
+      ExtUtils::MakeMaker 6.30
+      strict 0
+      warnings 0
+  ExtUtils-Helpers-0.026
+    pathname: L/LE/LEONT/ExtUtils-Helpers-0.026.tar.gz
+    provides:
+      ExtUtils::Helpers 0.026
+      ExtUtils::Helpers::Unix 0.026
+      ExtUtils::Helpers::VMS 0.026
+      ExtUtils::Helpers::Windows 0.026
+    requirements:
+      Carp 0
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      File::Basename 0
+      File::Copy 0
+      File::Spec::Functions 0
+      Text::ParseWords 3.24
+      perl 5.006
+      strict 0
+      warnings 0
+  ExtUtils-InstallPaths-0.011
+    pathname: L/LE/LEONT/ExtUtils-InstallPaths-0.011.tar.gz
+    provides:
+      ExtUtils::InstallPaths 0.011
+    requirements:
+      Carp 0
+      ExtUtils::Config 0.002
+      ExtUtils::MakeMaker 0
+      File::Spec 0
+      perl 5.006
+      strict 0
+      warnings 0
+  Imager-1.005
+    pathname: T/TO/TONYC/Imager-1.005.tar.gz
+    provides:
+      Imager 1.005
+      Imager::Color 1.012
+      Imager::Color::Float 1.005
+      Imager::Color::Table 1.003
+      Imager::CountColor 0.02
+      Imager::Expr 1.006
+      Imager::Expr::Assem 1.003
+      Imager::Expr::Infix 1.006
+      Imager::Expr::Postfix 1.006
+      Imager::ExtUtils 1.002
+      Imager::FORMATS 1.005
+      Imager::File::CUR undef
+      Imager::File::ICO 0.05
+      Imager::File::SGI 0.03
+      Imager::Fill 1.012
+      Imager::Filter::DynTest 0.02
+      Imager::Filter::Flines 0.03
+      Imager::Filter::Mandelbrot 0.04
+      Imager::Font 1.038
+      Imager::Font::BBox 1.006
+      Imager::Font::FreeType2 1.020
+      Imager::Font::Image undef
+      Imager::Font::Test 1.0001
+      Imager::Font::Truetype 1.012
+      Imager::Font::Type1 1.012
+      Imager::Font::Wrap 1.004
+      Imager::Fountain 1.007
+      Imager::IO 1.005
+      Imager::Matrix2d 1.012
+      Imager::Preprocess 1.001
+      Imager::Probe 1.005
+      Imager::Regops undef
+      Imager::Test 1.003
+      Imager::Test::OverUtf8 1.003
+      Imager::Transform 1.006
+    requirements:
+      ExtUtils::MakeMaker 0
+      Scalar::Util 1
+      Test::More 0.99
+      XSLoader 0
+  List-Flatten-0.01
+    pathname: O/OB/OBRADOVIC/List-Flatten-0.01.tar.gz
+    provides:
+      List::Flatten 0.01
+    requirements:
+      Test::More 0
+  List-MoreUtils-0.416
+    pathname: R/RE/REHSACK/List-MoreUtils-0.416.tar.gz
+    provides:
+      List::MoreUtils 0.416
+      List::MoreUtils::PP 0.416
+      List::MoreUtils::XS 0.416
+    requirements:
+      Carp 0
+      Exporter::Tiny 0.038
+      ExtUtils::MakeMaker 0
+      File::Basename 0
+      File::Copy 0
+      File::Path 0
+      File::Spec 0
+      IPC::Cmd 0
+      XSLoader 0.22
+      base 0
+  Module-Build-0.4220
+    pathname: L/LE/LEONT/Module-Build-0.4220.tar.gz
+    provides:
+      Module::Build 0.4220
+      Module::Build::Base 0.4220
+      Module::Build::Compat 0.4220
+      Module::Build::Config 0.4220
+      Module::Build::Cookbook 0.4220
+      Module::Build::Dumper 0.4220
+      Module::Build::Notes 0.4220
+      Module::Build::PPMMaker 0.4220
+      Module::Build::Platform::Default 0.4220
+      Module::Build::Platform::MacOS 0.4220
+      Module::Build::Platform::Unix 0.4220
+      Module::Build::Platform::VMS 0.4220
+      Module::Build::Platform::VOS 0.4220
+      Module::Build::Platform::Windows 0.4220
+      Module::Build::Platform::aix 0.4220
+      Module::Build::Platform::cygwin 0.4220
+      Module::Build::Platform::darwin 0.4220
+      Module::Build::Platform::os2 0.4220
+      Module::Build::PodParser 0.4220
+    requirements:
+      CPAN::Meta 2.142060
+      CPAN::Meta::YAML 0.003
+      Cwd 0
+      Data::Dumper 0
+      ExtUtils::CBuilder 0.27
+      ExtUtils::Install 0
+      ExtUtils::Manifest 0
+      ExtUtils::Mkbootstrap 0
+      ExtUtils::ParseXS 2.21
+      File::Basename 0
+      File::Compare 0
+      File::Copy 0
+      File::Find 0
+      File::Path 0
+      File::Spec 0.82
+      File::Temp 0.15
+      Getopt::Long 0
+      Module::Metadata 1.000002
+      Parse::CPAN::Meta 1.4401
+      Perl::OSType 1
+      Pod::Man 2.17
+      TAP::Harness 3.29
+      Test::More 0.49
+      Text::Abbrev 0
+      Text::ParseWords 0
+      perl 5.006001
+      version 0.87
+  Module-Build-Tiny-0.039
+    pathname: L/LE/LEONT/Module-Build-Tiny-0.039.tar.gz
+    provides:
+      Module::Build::Tiny 0.039
+    requirements:
+      CPAN::Meta 0
+      DynaLoader 0
+      Exporter 5.57
+      ExtUtils::CBuilder 0
+      ExtUtils::Config 0.003
+      ExtUtils::Helpers 0.020
+      ExtUtils::Install 0
+      ExtUtils::InstallPaths 0.002
+      ExtUtils::ParseXS 0
+      File::Basename 0
+      File::Find 0
+      File::Path 0
+      File::Spec::Functions 0
+      Getopt::Long 2.36
+      JSON::PP 2
+      Pod::Man 0
+      TAP::Harness::Env 0
+      perl 5.006
+      strict 0
+      warnings 0
+  Module-Build-XSUtil-0.16
+    pathname: H/HI/HIDEAKIO/Module-Build-XSUtil-0.16.tar.gz
+    provides:
+      Module::Build::XSUtil 0.16
+    requirements:
+      Devel::CheckCompiler 0
+      Devel::PPPort 0
+      Exporter 0
+      ExtUtils::CBuilder 0
+      File::Basename 0
+      File::Path 0
+      Module::Build 0.4005
+      XSLoader 0
+      parent 0
+      perl 5.008005
+  Module-Pluggable-5.2
+    pathname: S/SI/SIMONW/Module-Pluggable-5.2.tar.gz
+    provides:
+      Devel::InnerPackage 0.4
+      Module::Pluggable 5.2
+      Module::Pluggable::Object 5.2
+    requirements:
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      File::Basename 0
+      File::Find 0
+      File::Spec 3.00
+      File::Spec::Functions 0
+      if 0
+      perl 5.00503
+      strict 0
+  Path-Tiny-0.098
+    pathname: D/DA/DAGOLDEN/Path-Tiny-0.098.tar.gz
+    provides:
+      Path::Tiny 0.098
+      Path::Tiny::Error 0.098
+    requirements:
+      Carp 0
+      Cwd 0
+      Digest 1.03
+      Digest::SHA 5.45
+      Exporter 5.57
+      ExtUtils::MakeMaker 6.17
+      Fcntl 0
+      File::Copy 0
+      File::Glob 0
+      File::Path 2.07
+      File::Spec 0.86
+      File::Temp 0.19
+      File::stat 0
+      constant 0
+      if 0
+      overload 0
+      perl 5.008001
+      strict 0
+      warnings 0
+  Perl-Lint-0.25
+    pathname: M/MO/MOZNION/Perl-Lint-0.25.tar.gz
+    provides:
+      Perl::Lint 0.25
+      Perl::Lint::Constants::Kind undef
+      Perl::Lint::Constants::Type undef
+      Perl::Lint::Filter::LikePerlCritic::Brutal undef
+      Perl::Lint::Filter::LikePerlCritic::Cruel undef
+      Perl::Lint::Filter::LikePerlCritic::Gentle undef
+      Perl::Lint::Filter::LikePerlCritic::Harsh undef
+      Perl::Lint::Filter::LikePerlCritic::Stern undef
+      Perl::Lint::Keywords undef
+      Perl::Lint::Policy undef
+      Perl::Lint::Policy::BuiltinFunctions::ProhibitBooleanGrep undef
+      Perl::Lint::Policy::BuiltinFunctions::ProhibitComplexMappings undef
+      Perl::Lint::Policy::BuiltinFunctions::ProhibitLvalueSubstr undef
+      Perl::Lint::Policy::BuiltinFunctions::ProhibitReverseSortBlock undef
+      Perl::Lint::Policy::BuiltinFunctions::ProhibitSleepViaSelect undef
+      Perl::Lint::Policy::BuiltinFunctions::ProhibitStringyEval undef
+      Perl::Lint::Policy::BuiltinFunctions::ProhibitStringySplit undef
+      Perl::Lint::Policy::BuiltinFunctions::ProhibitUniversalCan undef
+      Perl::Lint::Policy::BuiltinFunctions::ProhibitUniversalIsa undef
+      Perl::Lint::Policy::BuiltinFunctions::ProhibitUselessTopic undef
+      Perl::Lint::Policy::BuiltinFunctions::ProhibitVoidGrep undef
+      Perl::Lint::Policy::BuiltinFunctions::ProhibitVoidMap undef
+      Perl::Lint::Policy::BuiltinFunctions::RequireBlockGrep undef
+      Perl::Lint::Policy::BuiltinFunctions::RequireBlockMap undef
+      Perl::Lint::Policy::BuiltinFunctions::RequireGlobFunction undef
+      Perl::Lint::Policy::BuiltinFunctions::RequireSimpleSortBlock undef
+      Perl::Lint::Policy::ClassHierarchies::ProhibitAutoloading undef
+      Perl::Lint::Policy::ClassHierarchies::ProhibitExplicitISA undef
+      Perl::Lint::Policy::ClassHierarchies::ProhibitOneArgBless undef
+      Perl::Lint::Policy::CodeLayout::ProhibitParensWithBuiltins undef
+      Perl::Lint::Policy::CodeLayout::ProhibitQuotedWordLists undef
+      Perl::Lint::Policy::CodeLayout::RequireTrailingCommas undef
+      Perl::Lint::Policy::ControlStructures::ProhibitCStyleForLoops undef
+      Perl::Lint::Policy::ControlStructures::ProhibitCascadingIfElse undef
+      Perl::Lint::Policy::ControlStructures::ProhibitDeepNests undef
+      Perl::Lint::Policy::ControlStructures::ProhibitLabelsWithSpecialBlockNames undef
+      Perl::Lint::Policy::ControlStructures::ProhibitMutatingListFunctions undef
+      Perl::Lint::Policy::ControlStructures::ProhibitNegativeExpressionsInUnlessAndUntilConditions undef
+      Perl::Lint::Policy::ControlStructures::ProhibitPostfixControls undef
+      Perl::Lint::Policy::ControlStructures::ProhibitUnlessBlocks undef
+      Perl::Lint::Policy::ControlStructures::ProhibitUnreachableCode undef
+      Perl::Lint::Policy::ControlStructures::ProhibitUntilBlocks undef
+      Perl::Lint::Policy::ErrorHandling::RequireCarping undef
+      Perl::Lint::Policy::ErrorHandling::RequireCheckingReturnValueOfEval undef
+      Perl::Lint::Policy::InputOutput::ProhibitBacktickOperators undef
+      Perl::Lint::Policy::InputOutput::ProhibitBarewordFileHandles undef
+      Perl::Lint::Policy::InputOutput::ProhibitExplicitStdin undef
+      Perl::Lint::Policy::InputOutput::ProhibitInteractiveTest undef
+      Perl::Lint::Policy::InputOutput::ProhibitJoinedReadline undef
+      Perl::Lint::Policy::InputOutput::ProhibitOneArgSelect undef
+      Perl::Lint::Policy::InputOutput::ProhibitReadlineInForLoop undef
+      Perl::Lint::Policy::InputOutput::ProhibitTwoArgOpen undef
+      Perl::Lint::Policy::InputOutput::RequireBracedFileHandleWithPrint undef
+      Perl::Lint::Policy::InputOutput::RequireBriefOpen undef
+      Perl::Lint::Policy::InputOutput::RequireCheckedClose undef
+      Perl::Lint::Policy::InputOutput::RequireCheckedOpen undef
+      Perl::Lint::Policy::InputOutput::RequireCheckedSyscalls undef
+      Perl::Lint::Policy::InputOutput::RequireEncodingWithUTF8Layer undef
+      Perl::Lint::Policy::Miscellanea::ProhibitFormats undef
+      Perl::Lint::Policy::Miscellanea::ProhibitTies undef
+      Perl::Lint::Policy::Miscellanea::ProhibitUnrestrictedNoLint undef
+      Perl::Lint::Policy::Miscellanea::ProhibitUselessNoLint undef
+      Perl::Lint::Policy::Modules::ProhibitAutomaticExportation undef
+      Perl::Lint::Policy::Modules::ProhibitConditionalUseStatements undef
+      Perl::Lint::Policy::Modules::ProhibitEvilModules undef
+      Perl::Lint::Policy::Modules::ProhibitExcessMainComplexity undef
+      Perl::Lint::Policy::Modules::ProhibitMultiplePackages undef
+      Perl::Lint::Policy::Modules::RequireBarewordIncludes undef
+      Perl::Lint::Policy::Modules::RequireEndWithOne undef
+      Perl::Lint::Policy::Modules::RequireExplicitPackage undef
+      Perl::Lint::Policy::Modules::RequireFilenameMatchesPackage undef
+      Perl::Lint::Policy::Modules::RequireNoMatchVarsWithUseEnglish undef
+      Perl::Lint::Policy::Modules::RequireVersionVar undef
+      Perl::Lint::Policy::NamingConventions::Capitalization undef
+      Perl::Lint::Policy::NamingConventions::ProhibitAmbiguousNames undef
+      Perl::Lint::Policy::Objects::IndirectSyntax undef
+      Perl::Lint::Policy::References::ProhibitDoubleSigils undef
+      Perl::Lint::Policy::RegularExpressions::ProhibitCaptureWithoutTest undef
+      Perl::Lint::Policy::RegularExpressions::ProhibitComplexRegexes undef
+      Perl::Lint::Policy::RegularExpressions::ProhibitEnumeratedClasses undef
+      Perl::Lint::Policy::RegularExpressions::ProhibitEscapedMetacharacters undef
+      Perl::Lint::Policy::RegularExpressions::ProhibitFixedStringMatches undef
+      Perl::Lint::Policy::RegularExpressions::ProhibitSingleCharAlternation undef
+      Perl::Lint::Policy::RegularExpressions::ProhibitUnusedCapture undef
+      Perl::Lint::Policy::RegularExpressions::ProhibitUnusualDelimiters undef
+      Perl::Lint::Policy::RegularExpressions::ProhibitUselessTopic undef
+      Perl::Lint::Policy::RegularExpressions::RequireBracesForMultiline undef
+      Perl::Lint::Policy::RegularExpressions::RequireDotMatchAnything undef
+      Perl::Lint::Policy::RegularExpressions::RequireExtendedFormatting undef
+      Perl::Lint::Policy::RegularExpressions::RequireLineBoundaryMatching undef
+      Perl::Lint::Policy::Subroutines::ProhibitAmpersandSigils undef
+      Perl::Lint::Policy::Subroutines::ProhibitBuiltinHomonyms undef
+      Perl::Lint::Policy::Subroutines::ProhibitExcessComplexity undef
+      Perl::Lint::Policy::Subroutines::ProhibitExplicitReturnUndef undef
+      Perl::Lint::Policy::Subroutines::ProhibitManyArgs undef
+      Perl::Lint::Policy::Subroutines::ProhibitNestedSubs undef
+      Perl::Lint::Policy::Subroutines::ProhibitReturnSort undef
+      Perl::Lint::Policy::Subroutines::ProhibitSubroutinePrototypes undef
+      Perl::Lint::Policy::Subroutines::ProhibitUnusedPrivateSubroutines undef
+      Perl::Lint::Policy::Subroutines::ProtectPrivateSubs undef
+      Perl::Lint::Policy::Subroutines::RequireArgUnpacking undef
+      Perl::Lint::Policy::Subroutines::RequireFinalReturn undef
+      Perl::Lint::Policy::TestingAndDebugging::ProhibitNoStrict undef
+      Perl::Lint::Policy::TestingAndDebugging::ProhibitNoWarnings undef
+      Perl::Lint::Policy::TestingAndDebugging::ProhibitProlongedStrictureOverride undef
+      Perl::Lint::Policy::TestingAndDebugging::RequireTestLabels undef
+      Perl::Lint::Policy::TestingAndDebugging::RequireUseStrict undef
+      Perl::Lint::Policy::TestingAndDebugging::RequireUseWarnings undef
+      Perl::Lint::Policy::ValuesAndExpressions::ProhibitCommaSeparatedStatements undef
+      Perl::Lint::Policy::ValuesAndExpressions::ProhibitComplexVersion undef
+      Perl::Lint::Policy::ValuesAndExpressions::ProhibitConstantPragma undef
+      Perl::Lint::Policy::ValuesAndExpressions::ProhibitEmptyQuotes undef
+      Perl::Lint::Policy::ValuesAndExpressions::ProhibitEscapedCharacters undef
+      Perl::Lint::Policy::ValuesAndExpressions::ProhibitImplicitNewlines undef
+      Perl::Lint::Policy::ValuesAndExpressions::ProhibitInterpolationOfLiterals undef
+      Perl::Lint::Policy::ValuesAndExpressions::ProhibitLeadingZeros undef
+      Perl::Lint::Policy::ValuesAndExpressions::ProhibitLongChainsOfMethodCalls undef
+      Perl::Lint::Policy::ValuesAndExpressions::ProhibitMagicNumbers undef
+      Perl::Lint::Policy::ValuesAndExpressions::ProhibitMismatchedOperators undef
+      Perl::Lint::Policy::ValuesAndExpressions::ProhibitMixedBooleanOperators undef
+      Perl::Lint::Policy::ValuesAndExpressions::ProhibitNoisyQuotes undef
+      Perl::Lint::Policy::ValuesAndExpressions::ProhibitQuotesAsQuotelikeOperatorDelimiters undef
+      Perl::Lint::Policy::ValuesAndExpressions::ProhibitSpecialHeredocTerminator undef
+      Perl::Lint::Policy::ValuesAndExpressions::ProhibitVersionStrings undef
+      Perl::Lint::Policy::ValuesAndExpressions::RequireConstantVersion undef
+      Perl::Lint::Policy::ValuesAndExpressions::RequireInterpolationOfMetachars undef
+      Perl::Lint::Policy::ValuesAndExpressions::RequireNumberSeparators undef
+      Perl::Lint::Policy::ValuesAndExpressions::RequireQuotedHeredocTerminator undef
+      Perl::Lint::Policy::ValuesAndExpressions::RequireUpperCaseHeredocTerminator undef
+      Perl::Lint::Policy::Variables::ProhibitAugmentedAssignmentInDeclaration undef
+      Perl::Lint::Policy::Variables::ProhibitConditionalDeclarations undef
+      Perl::Lint::Policy::Variables::ProhibitEvilVariables undef
+      Perl::Lint::Policy::Variables::ProhibitLocalVars undef
+      Perl::Lint::Policy::Variables::ProhibitMatchVars undef
+      Perl::Lint::Policy::Variables::ProhibitPackageVars undef
+      Perl::Lint::Policy::Variables::ProhibitPerl4PackageNames undef
+      Perl::Lint::Policy::Variables::ProhibitPunctuationVars undef
+      Perl::Lint::Policy::Variables::ProhibitReusedNames undef
+      Perl::Lint::Policy::Variables::ProhibitUnusedVariables undef
+      Perl::Lint::Policy::Variables::ProtectPrivateVars undef
+      Perl::Lint::Policy::Variables::RequireInitializationForLocalVars undef
+      Perl::Lint::Policy::Variables::RequireLexicalLoopIterators undef
+      Perl::Lint::Policy::Variables::RequireLocalizedPunctuationVars undef
+      Perl::Lint::Policy::Variables::RequireNegativeIndices undef
+      Test::Perl::Lint 0.25
+    requirements:
+      B::Keywords 0
+      Carp 0
+      Compiler::Lexer 0.22
+      Email::Address 0
+      List::Flatten 0
+      List::MoreUtils 0.33
+      List::Util 1.41
+      Module::Build::Tiny 0.035
+      Module::Load 0
+      Module::Pluggable 0
+      Path::Tiny 0.068
+      Regexp::Lexer 0.05
+      String::CamelCase 0
+      Test::Builder::Module 0
+      Test::Deep::NoTest 0
+      Test::More 0.98
+      feature 0
+      parent 0
+      perl 5.010001
+  Regexp-Lexer-0.05
+    pathname: M/MO/MOZNION/Regexp-Lexer-0.05.tar.gz
+    provides:
+      Regexp::Lexer 0.05
+      Regexp::Lexer::TokenType undef
+    requirements:
+      Module::Build::Tiny 0.035
+      parent 0
+      perl 5.010001
+  String-CamelCase-0.02
+    pathname: H/HI/HIO/String-CamelCase-0.02.tar.gz
+    provides:
+      String::CamelCase 0.02
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0
+  Test-Deep-1.126
+    pathname: R/RJ/RJBS/Test-Deep-1.126.tar.gz
+    provides:
+      Test::Deep 1.126
+      Test::Deep::All undef
+      Test::Deep::Any undef
+      Test::Deep::Array undef
+      Test::Deep::ArrayEach undef
+      Test::Deep::ArrayElementsOnly undef
+      Test::Deep::ArrayLength undef
+      Test::Deep::ArrayLengthOnly undef
+      Test::Deep::Blessed undef
+      Test::Deep::Boolean undef
+      Test::Deep::Cache undef
+      Test::Deep::Cache::Simple undef
+      Test::Deep::Class undef
+      Test::Deep::Cmp undef
+      Test::Deep::Code undef
+      Test::Deep::Hash undef
+      Test::Deep::HashEach undef
+      Test::Deep::HashElements undef
+      Test::Deep::HashKeys undef
+      Test::Deep::HashKeysOnly undef
+      Test::Deep::Ignore undef
+      Test::Deep::Isa undef
+      Test::Deep::ListMethods undef
+      Test::Deep::MM undef
+      Test::Deep::Methods undef
+      Test::Deep::NoTest undef
+      Test::Deep::None undef
+      Test::Deep::Number undef
+      Test::Deep::Obj undef
+      Test::Deep::Ref undef
+      Test::Deep::RefType undef
+      Test::Deep::Regexp undef
+      Test::Deep::RegexpMatches undef
+      Test::Deep::RegexpOnly undef
+      Test::Deep::RegexpRef undef
+      Test::Deep::RegexpRefOnly undef
+      Test::Deep::RegexpVersion undef
+      Test::Deep::ScalarRef undef
+      Test::Deep::ScalarRefOnly undef
+      Test::Deep::Set undef
+      Test::Deep::Shallow undef
+      Test::Deep::Stack undef
+      Test::Deep::String undef
+      Test::Deep::SubHash undef
+      Test::Deep::SubHashElements undef
+      Test::Deep::SubHashKeys undef
+      Test::Deep::SubHashKeysOnly undef
+      Test::Deep::SuperHash undef
+      Test::Deep::SuperHashElements undef
+      Test::Deep::SuperHashKeys undef
+      Test::Deep::SuperHashKeysOnly undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      List::Util 1.09
+      Scalar::Util 1.09
+      Test::Builder 0
+  XSLoader-0.24
+    pathname: S/SA/SAPER/XSLoader-0.24.tar.gz
+    provides:
+      XSLoader 0.24
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0.47
