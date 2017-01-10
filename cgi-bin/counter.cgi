@@ -6,6 +6,7 @@ use warnings;
 use FindBin;
 use lib "$FindBin::Bin/local/lib/perl5";
 use Imager;
+our $VERSION = '0.1';
 
 # constants
 my $number_of_digits = 10;
@@ -13,7 +14,15 @@ my $digit_width = 10;
 my $digit_height = 10;
 
 
-my $counter = 76156;
+# counter
+# No Lock may crash data
+open(IN, "counter.dat");
+my $counter = <IN>;
+close(IN);
+$counter++;
+open(OUT, "> counter.dat");
+print OUT $counter;
+close(OUT);
 
 # load digit images
 my @numbers = ();
@@ -32,11 +41,11 @@ foreach my $char ( split //, sprintf("%0".$number_of_digits."d", $counter) ) {
   $blank = $blank->paste(left => $counter_width - $digit_width*($number_of_digits-$i), top  => 0, img  => $numbers[$char+0]);
   $i++;
 }
-$blank->write( file => 'after_test.bmp') or die $blank->errstr;
 
-our $VERSION = '0.1';
-
-print "Content-type: text/html\n\n";
-print 'Hello, World.';
+# output
+print "Content-type: image/bmp\n\n";
+my $data;
+$blank->write(data => \$data, type => 'bmp') or die $blank->errstr;
+print $data;
 
 1;

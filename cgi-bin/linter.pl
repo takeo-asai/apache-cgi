@@ -14,7 +14,7 @@ print "Content-type: text/html\n\n";
 print 'Hello, World.';
 
 my $linter = Perl::Lint->new;
-my $target_files = ['index.cgi'];
+my $target_files = ['counter.cgi'];
 my $violations   = $linter->lint($target_files);
 
 print {*Dumper} $violations;
